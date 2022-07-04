@@ -33,6 +33,9 @@ li {
 }
 
 /* ﾒｲﾝ */
+/* * {
+  outline: 1px solid red !important;
+} */
 
 /* ﾒｲﾝ-top */
 .top-block {
@@ -76,30 +79,36 @@ li {
 
 /* ﾒｲﾝ-news */
 .news-block {
-  position: static;
   height: 450px;
-  padding: 0 400px;
+  width: 100%;
 }
 
 .news {
   color: #b4245c;
+  width: 70%;
+  margin: auto;
 }
 
 .news-inf {
   font-size: 20px;
   font-weight: bold;
+  width: 70%;
+  margin: auto;
 }
 
 .line-top {
-  width: 100%;
+  width: 70%;
+  margin: auto;
 } 
 
 .line-bottom {
-  width: 100%;
+  width: 7%;
+  margin: auto;
 }
 
 .news-table {
-  width: 100%;
+  width: 70%;
+  margin: auto;
 }
 
 td {
@@ -116,36 +125,42 @@ td {
 
 /* ﾒｲﾝ-about */
 .about-block {
-  height: 380px;
-  padding: 20px;
+  height: 450px;
+  width: 100%;
   background-color: #F0F0F0;
 }
 
 .about {
   color: #b4245c;
   text-align: center;
+  width: 70%;
+  margin: auto;
 }
 
 .catch-copy {
   font-size: 20px;
   font-weight: bold;
   text-align: center;
+  width: 70%;
+  margin: auto;
 }
 
 .about-inf {
-  position: relative;
-  padding: 0 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin: auto;
 }
 
 .massage-about {
-  position: absolute;
-  width: 100%;
+  width: 70%;
+  margin: auto;
 }
 
 .img-about {
-  position: absolute;
   right: 300px;
-  width: 25%;
+  width: 75%;
 }
 
 .img-about img {
@@ -154,18 +169,22 @@ td {
 
 /* ﾒｲﾝ-service */
 .service-block {
-  position: static;
   height: 450px;
-  padding: 20px 300px;
+  width: 100%;
+  margin: auto;
 }
 
 .service {
   color: #b4245c;
+  width: 70%;
+  margin: auto;
 }
 
 .service-inf {
   font-size: 20px;
   font-weight: bold;
+  width: 70%;
+  margin: auto;
 }
 
 .grid {
@@ -174,7 +193,8 @@ td {
   grid-template-columns: 2fr 2fr;
   color: #F0F0F0;
   font-weight: bold;
-
+  width: 70%;
+  margin: auto;
 }
 
 .box1 {
@@ -217,28 +237,34 @@ td {
 /* ﾒｲﾝ-blog */
 .blog-block {
   height: 450px;
-  padding: 20px 300px;
+  width: 100%;
   background-color: #F0F0F0;
 }
 
 .blog {
   color: #b4245c;
+  width: 70%;
+  margin: auto;
 }
 
 .blog-inf {
   font-size: 20px;  
   font-weight: bold;
+  width: 70%;
+  margin: auto;
 }
 
 .card-area {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 70%;
+  margin: auto;
 }
 
 .card {
   position: relative;
-  width: 250px;
+  width: 200px;
 }
 
 .card-content-cat {
@@ -253,7 +279,7 @@ td {
 
 .img-blog {
   position: absolute;
-  width: 250px;
+  width: 200px;
   z-index: 0;
 }
 
@@ -266,7 +292,7 @@ td {
 .card-content {
   position: absolute;
   width: 100%;
-  top: 150px;
+  top: 120px;
   background: #FFFFFF;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
@@ -296,8 +322,10 @@ td {
 .b-bottun {
   display: block;
   position: absolute;
-  top: 2420px;
-  left: 45%;
+  top: 2300px;
+  left: 43%;
+  width: 10%;
+  text-align: center;
   font-size: 15px;
   color: #b4245c;
   background: #FFFFFF;
@@ -309,29 +337,33 @@ td {
 
 /* ﾒｲﾝ-company */
 .company-block {
-  position: static;
   height: 500px;
-  padding: 20px 400px;
+  width: 100%;
 }
 
 .company {
   color: #b4245c;
+  width: 70%;
+  margin: auto;
 }
 
 .company-inf {
   font-size: 20px;
   font-weight: bold;
+  width: 70%;
+  margin: auto;
 }
 
 .company-table {
-  width: 100%;
+  width: 70%;
+  margin: auto;
 }
 
-table td {
+table.company-table td {
   border: 0.5px solid;
 }
 
-table tr td:nth-of-type(1) {
+table.company-table tr td:nth-of-type(1) {
   background: #F0F0F0;
   font-weight: bold;
 }
